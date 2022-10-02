@@ -1,6 +1,6 @@
-# Huobi C++ SDK v2
+# New Huo C++ SDK v2
 
-This is Huobi C++ SDK v2, you can import to your C++ project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking, and subscribing the market, account and order update from the WebSocket connection.
+This is New Huo C++ SDK v2, you can import to your C++ project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking, and subscribing the market, account and order update from the WebSocket connection.
 
 If you already use SDK v1, it is strongly suggested migrate to v2 as we refactor the implementation to make it simpler and easy to maintain. We will stop the maintenance of v1 in the near future. Please refer to the instruction on how to migrate v1 to v2 in section [Migrate from v1](#Migrate-from-v1)
 
@@ -125,7 +125,7 @@ $ brew link openssl --force
 
 After installing the SDK, you are able to run the examples under **/demo** folder. if you want to access private data, you need below additional two steps:
 
-1. Create an **API Key** first from Huobi official website
+1. Create an **API Key** first from New Huo official website
 2. Assign your API access key and secret key in file **/include/define.h** as below:
 
 ```c++
@@ -150,7 +150,7 @@ $ make
 
 ### Client
 
-In this SDK, the client is the struct to access the Huobi API. In order to isolate the private data with public data, and isolated different kind of data, the client category is designated to match the API category. 
+In this SDK, the client is the struct to access the New Huo API. In order to isolate the private data with public data, and isolated different kind of data, the client category is designated to match the API category.
 
 All the client is listed in below table. Each client is very small and simple, it is only responsible to operate its related data, you can pick up multiple clients to create your own application based on your business.
 
